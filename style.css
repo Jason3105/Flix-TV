@@ -6,6 +6,10 @@
         font-family: 'Helvetica Neue', Arial, sans-serif;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         background-color: #141414;
         color: #fff;

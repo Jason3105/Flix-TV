@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Stream Movies & TV Shows</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <a href="index.html">Netflix</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">New & Popular</a></li>
+                    <li><a href="#">My List</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Titles, people, genres">
+                </div>
+                <div class="notifications">
+                    <i class="fas fa-bell"></i>
+                    <div class="notifications-dropdown">
+                        <div class="notification-item">
+                            <p>New arrival: Red One is now available</p>
+                            <small>1 hour ago</small>
+                        </div>
+                        <div class="notification-item">
+                            <p>Continue watching Dr. Strange</p>
+                            <small>2 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="/api/placeholder/32/32" alt="Profile">
+                    <i class="fas fa-caret-down"></i>
+                    <div class="profile-dropdown">
+                        <a href="#">Manage Profiles</a>
+                        <a href="#">Account</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Sign out of Netflix</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <p style="font-size: 50px"><b>Dr. Strange in the Multiverse of Madness</b></p>
+            <p class="hero-desc">Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse.</p>
+            <div class="hero-buttons">
+                <a href="https://mcloud.vvid30c.site/watch/?v11#TEkwWGsvNjhkcTBEWDZCZzQzbHF1SnR6TlpRcWJmMDhGOTVHRzhQcjVCbkdGVHRyeWlvRTFKNWtGbUdja1lSNzl2ZS9QUjlSTFRNPQ" target="_self">  
+                    <button class="btn-play"><i class="fas fa-play"></i> Play</button>
+                </a>
+                <button class="btn-more-info"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+        </div>
+        <div class="hero-shadow"></div>
+    </section>
+
+    <!-- Movie Rows -->
+    <section class="movie-section">
+        <h2 class="row-title">Popular on Netflix</h2>
+        <div class="movie-row-container">
+            <div class="slider-control left">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="movie-row">
+                <!-- Dr. Strange in the Multiverse of Madness -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#TEkwWGsvNjhkcTBEWDZCZzQzbHF1SnR6TlpRcWJmMDhGOTVHRzhQcjVCbkdGVHRyeWlvRTFKNWtGbUdja1lSNzl2ZS9QUjlSTFRNPQ" target="_self">
+                    <div class="movie-tile" data-id="drstrange">
+                        <img src="./Images/drstrange.jpg" alt="Dr. Strange in the Multiverse of Madness">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#TEkwWGsvNjhkcTBEWDZCZzQzbHF1SnR6TlpRcWJmMDhGOTVHRzhQcjVCbkdGVHRyeWlvRTFKNWtGbUdja1lSNzl2ZS9QUjlSTFRNPQ" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2022</div>
+                                <div class="rating">U/A</div>
+                                <div class="duration">2h 6m</div>
+                                <div class="genres">Fantasy/Action</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Ghostbusters : Afterlife -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#b0t1V2I0c0pObkhIZ3k5YVBFMWVwNXVqM3RmcERObGUyQzR0emFzR1hjRnB0WVdBUTdZSUtaYnFjY1dJRW5RM2ZxdHJPT3BiZ3drPQ" target="_self">
+                    <div class="movie-tile" data-id="ghostbusters">
+                        <img src="./Images/ghostbusters.jpg" alt="Ghostbusters : Afterlife">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#b0t1V2I0c0pObkhIZ3k5YVBFMWVwNXVqM3RmcERObGUyQzR0emFzR1hjRnB0WVdBUTdZSUtaYnFjY1dJRW5RM2ZxdHJPT3BiZ3drPQ" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2021</div>
+                                <div class="rating">U/A</div>
+                                <div class="duration">2h 4m</div>
+                                <div class="genres">Comedy/Fantasy</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Interstellar -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#eEVOR3h2MHVodEdnbytkbUY1R0FYSTdZczNvOGdmUERRZG1IRkJTUkh6NDNPRS9WZC9DdlJtWUZuTk90REtXUE1Jcz0" target="_self">
+                    <div class="movie-tile" data-id="interstellar">
+                        <img src="./Images/interstellar.jpg" alt="interstellar">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#eEVOR3h2MHVodEdnbytkbUY1R0FYSTdZczNvOGdmUERRZG1IRkJTUkh6NDNPRS9WZC9DdlJtWUZuTk90REtXUE1Jcz0" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2014</div>
+                                <div class="rating">U/A</div>
+                                <div class="duration">2h 49m</div>
+                                <div class="genres">Sci-fi/Adventure</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Red One -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#Sno1eWMzbUo5YTc5SnlSYUpYY1ZyOHc0R1dsdXNsOVRyM0xQTld3Mk5WWmw1Rm1vNmlES0VCc0xSK21sbFZKL0k0anVHWDNIQVlzPQ" target="_self">
+                    <div class="movie-tile" data-id="redone">
+                        <img src="./Images/redone.jpg" alt="redone">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#Sno1eWMzbUo5YTc5SnlSYUpYY1ZyOHc0R1dsdXNsOVRyM0xQTld3Mk5WWmw1Rm1vNmlES0VCc0xSK21sbFZKL0k0anVHWDNIQVlzPQ" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2024</div>
+                                <div class="rating">U/A</div>
+                                <div class="duration">2h 3m</div>
+                                <div class="genres">Action/Comedy</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Mufasa : The Lion King -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#M040eUVoNGlDV3BJWCtZK1hOdFFCNENZbnh5clNQSG9CR25kUzM0QW9tQ1dURVpZSk83eGQzd3lNaUgwMFA0SHdpRmRKZnduRm5rPQ" target="_self">
+                    <div class="movie-tile" data-id="thelionking">
+                        <img src="./Images/thelionking.jpeg" alt="thelionking">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#M040eUVoNGlDV3BJWCtZK1hOdFFCNENZbnh5clNQSG9CR25kUzM0QW9tQ1dURVpZSk83eGQzd3lNaUgwMFA0SHdpRmRKZnduRm5rPQ" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2024</div>
+                                <div class="rating">CBFC: U</div>
+                                <div class="duration">2h</div>
+                                <div class="genres">Adventure/Musical</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Sherlock Holmes -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#ems1ZUFnTHAyT0hWZDNLTTJzVjFna01mNEVMWTEvcmNrelVVbWlzOHhzcURUeW9hUmh3bVlYVk94Um92WFJZNHpVZz0" target="_self">
+                    <div class="movie-tile" data-id="sherlockholmes">
+                        <img src="./Images/sherlockholmes.jpg" alt="sherlockholmes">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#ems1ZUFnTHAyT0hWZDNLTTJzVjFna01mNEVMWTEvcmNrelVVbWlzOHhzcURUeW9hUmh3bVlYVk94Um92WFJZNHpVZz0" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2009</div>
+                                <div class="rating">U/A</div>
+                                <div class="duration">2h 6m</div>
+                                <div class="genres">Action/Thriller</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- The Avengers -->
+                <a href="https://mcloud.vvid30c.site/watch/?v11#a09LTFJ2dXdITk43NVFCNVdhMW85U3NJU1BPMkcrK1VYZkF2ZVNLTDVRb1NpZnJvTWpEdkZvQUdEWlVBVHcxcTNDZz0" target="_self">
+                    <div class="movie-tile" data-id="theavengers">
+                        <img src="./Images/theavengers.jpg" alt="theavengers">
+                        <div class="tile-overlay">
+                            <div class="tile-buttons">
+                                <a href="https://mcloud.vvid30c.site/watch/?v11#a09LTFJ2dXdITk43NVFCNVdhMW85U3NJU1BPMkcrK1VYZkF2ZVNLTDVRb1NpZnJvTWpEdkZvQUdEWlVBVHcxcTNDZz0" target="_self">
+                                    <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                                </a>
+                                <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                                <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                            </div>
+                            <div class="tile-info">
+                                <div class="match">2009</div>
+                                <div class="rating">U/A</div>
+                                <div class="duration">2h 6m</div>
+                                <div class="genres">Action/Thriller</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            
+        </div>
+        <div class="slider-control right">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+</section>
+
+<section class="movie-section">
+    <h2 class="row-title">Trending Now</h2>
+    <div class="movie-row-container">
+        <div class="slider-control left">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="movie-row">
+            <!-- Avatar -->
+            <a href="https://mcloud.vvid30c.site/watch/?v11#aDJpZjY3L3hkQVBsdVNaV0J5N0VWWDZPRWhLWkJJUEUzMkE2MU51T2RSak1WdTh4cko2QW0zcjMyeVdpZThtRmtNaz0" target="_self">
+                <div class="movie-tile" data-id="avatar">
+                    <img src="./Images/avatar.jpeg" alt="avatar">
+                    <div class="tile-overlay">
+                        <div class="tile-buttons">
+                            <a href="https://mcloud.vvid30c.site/watch/?v11#aDJpZjY3L3hkQVBsdVNaV0J5N0VWWDZPRWhLWkJJUEUzMkE2MU51T2RSak1WdTh4cko2QW0zcjMyeVdpZThtRmtNaz0" target="_self">
+                                <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                            </a>
+                            <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                            <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="tile-info">
+                            <div class="match">2009</div>
+                            <div class="rating">U/A</div>
+                            <div class="duration">2h 58m</div>
+                            <div class="genres">Sci-fi/Action</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- High School Musical -->
+            <a href="https://mcloud.vvid30c.site/watch/?v11#dHlZektmcjZ0ak9qYUhkVndUU1F2SWJ2SnZtZ2ZLWnlzb3cvR2VrQUdxM3NVd2RvU2JCWEJCdmxhaUZOdzFNT0wrVT0" target="_self">
+                <div class="movie-tile" data-id="highschoolmusical">
+                    <img src="./Images/hsm.jpg" alt="highschoolmusical">
+                    <div class="tile-overlay">
+                        <div class="tile-buttons">
+                            <a href="https://mcloud.vvid30c.site/watch/?v11#dHlZektmcjZ0ak9qYUhkVndUU1F2SWJ2SnZtZ2ZLWnlzb3cvR2VrQUdxM3NVd2RvU2JCWEJCdmxhaUZOdzFNT0wrVT0" target="_self">
+                                <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                            </a>
+                            <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                            <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="tile-info">
+                            <div class="match">2006</div>
+                            <div class="rating">U/A</div>
+                            <div class="duration">CBFC: U</div>
+                            <div class="genres">Family/Musical</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Apocalypse Z -->
+            <a href="https://mcloud.vvid30c.site/watch/?v11#Wno3UWh3ZGtCZEF0ZWJTYkxTVmQzYm85c242VFhHckUyQ3NVMlkvTk1aeGNWSG1vWTJod0V3aHQ4SDRFQjRIVUVyY29QMnMrY2h3PQ" target="_self">
+                <div class="movie-tile" data-id="apocalypsez">
+                    <img src="./Images/apocalypsez.jpg" alt="apocalypsez">
+                    <div class="tile-overlay">
+                        <div class="tile-buttons">
+                            <a href="https://mcloud.vvid30c.site/watch/?v11#Wno3UWh3ZGtCZEF0ZWJTYkxTVmQzYm85c242VFhHckUyQ3NVMlkvTk1aeGNWSG1vWTJod0V3aHQ4SDRFQjRIVUVyY29QMnMrY2h3PQ" target="_self">
+                                <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                            </a>
+                            <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                            <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="tile-info">
+                            <div class="match">2024</div>
+                            <div class="rating">U/A</div>
+                            <div class="duration">1h 57m</div>
+                            <div class="genres">Action/Horror</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Max -->
+            <a href="https://mcloud.vvid30c.site/watch/?v11#dmM2NTR6ZWNvTndxd3ZoRnQwa3Vrdkd5NWI1SXIvcUhoeklWc1B5QnhlV2dPUXQ3UTV4eXhtSnMvelMydnNSeG5RWT0" target="_self">
+                <div class="movie-tile" data-id="max">
+                    <img src="./Images/max.jpg" alt="max">
+                    <div class="tile-overlay">
+                        <div class="tile-buttons">
+                            <a href="https://mcloud.vvid30c.site/watch/?v11#dmM2NTR6ZWNvTndxd3ZoRnQwa3Vrdkd5NWI1SXIvcUhoeklWc1B5QnhlV2dPUXQ3UTV4eXhtSnMvelMydnNSeG5RWT0" target="_self">
+                                <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                            </a>
+                            <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                            <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="tile-info">
+                            <div class="match">2015</div>
+                            <div class="rating">PG</div>
+                            <div class="duration">1h 51m</div>
+                            <div class="genres">Adventure/Family</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            
+
+            
+
+            
+        </div>
+        <div class="slider-control right">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+</section>
+
+<section class="movie-section">
+    <h2 class="row-title">Watch Again</h2>
+    <div class="movie-row-container">
+        <div class="slider-control left">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="movie-row">
+            <div class="movie-tile" data-id="watchagain1">
+                <img src="/api/placeholder/300/169" alt="Watch Again 1">
+                <div class="tile-overlay">
+                    <div class="tile-buttons">
+                        <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                        <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                        <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                    </div>
+                    <div class="tile-info">
+                        <div class="match">2022</div>
+                        <div class="rating">U/A</div>
+                        <div class="duration">1h 59m</div>
+                        <div class="genres">Drama/Biography</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-tile" data-id="watchagain2">
+                <img src="/api/placeholder/300/169" alt="Watch Again 2">
+                <div class="tile-overlay">
+                    <div class="tile-buttons">
+                        <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                        <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                        <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                    </div>
+                    <div class="tile-info">
+                        <div class="match">2021</div>
+                        <div class="rating">U/A</div>
+                        <div class="duration">2h 12m</div>
+                        <div class="genres">Action/Comedy</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-tile" data-id="watchagain3">
+                <img src="/api/placeholder/300/169" alt="Watch Again 3">
+                <div class="tile-overlay">
+                    <div class="tile-buttons">
+                        <button class="btn-icon play"><i class="fas fa-play"></i></button>
+                        <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+                        <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+                    </div>
+                    <div class="tile-info">
+                        <div class="match">2023</div>
+                        <div class="rating">U/A</div>
+                        <div class="duration">1h 45m</div>
+                        <div class="genres">Thriller/Mystery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-control right">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+</section>
+
+<!-- Movie Detail Modal -->
+<div id="movieModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-trailer">
+            <img src="/api/placeholder/1000/563" alt="Movie Trailer">
+        </div>
+        <div class="modal-actions">
+            <button class="btn-play"><i class="fas fa-play"></i> Play</button>
+            <button class="btn-icon add"><i class="fas fa-plus"></i></button>
+            <button class="btn-icon like"><i class="fas fa-thumbs-up"></i></button>
+        </div>
+        <div class="modal-info">
+            <div class="modal-details">
+                <p><span class="match">97% Match</span> 2022 U/A 2h 6m</p>
+                <p>Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself.</p>
+            </div>
+        </div>
+        <div class="modal-cast">
+            <h3>Cast: Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor</h3>
+            <h3>Director: Sam Raimi</h3>
+        </div>
+        <div class="modal-similar">
+            <h3>More Like This</h3>
+            <div class="similar-movies">
+                <div class="similar-movie">
+                    <img src="/api/placeholder/200/113" alt="Similar Movie 1">
+                </div>
+                <div class="similar-movie">
+                    <img src="/api/placeholder/200/113" alt="Similar Movie 2">
+                </div>
+                <div class="similar-movie">
+                    <img src="/api/placeholder/200/113" alt="Similar Movie 3">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links-column">
+                <a href="#">Audio Description</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="footer-links-column">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+            </div>
+            <div class="footer-links-column">
+                <a href="#">Gift Cards</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <div class="footer-links-column">
+                <a href="#">Media Center</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="service-code">
+            <button>Service Code</button>
+        </div>
+        <div class="copyright">
+            &copy; 1997-2025 Netflix, Inc.
+        </div>
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Flix-TV 🎬📺  
+# FlixTV 🎬📺  
 FlixTV is a Netflix-inspired streaming platform that allows users to browse, search, and experience a stunning UI theme similar to Netflix. Designed with pure HTML, CSS, and JavaScript, it offers a sleek, responsive, and immersive user interface that adapts seamlessly to all screen sizes.  
 
 ## Live Demo 🚀
@@ -20,9 +20,9 @@ FlixTV is a Netflix-inspired streaming platform that allows users to browse, sea
 
 ## Installation 🚀
 1. Clone the repository:
-   <pre>git clone https://github.com/your-username/flixTV.git</pre>
+   <pre>git clone https://github.com/your-username/Flix-TV.git</pre>
 2. Navigate to the project directory:
-   <pre>cd flixTV</pre>
+   <pre>cd Flix-TV</pre>
 3. Open index.html in a browser to view the project.
 
 ## Project Structure 📂

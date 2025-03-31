@@ -41,34 +41,34 @@
     });
 
     // Movie modal
-    const movieTiles = document.querySelectorAll('.movie-tile');
-    const movieModal = document.getElementById('movieModal');
-    const closeModal = document.querySelector('.close-modal');
-    const moreInfoBtn = document.querySelector('.btn-more-info');
+    // const movieTiles = document.querySelectorAll('.movie-tile');
+    // const movieModal = document.getElementById('movieModal');
+    // const closeModal = document.querySelector('.close-modal');
+    // const moreInfoBtn = document.querySelector('.btn-more-info');
     
-    function openModal() {
-        movieModal.style.display = 'block';
-        document.body.style.overflow = 'hidden';
-    }
+    // function openModal() {
+    //     movieModal.style.display = 'block';
+    //     document.body.style.overflow = 'hidden';
+    // }
     
-    function closeModalFunc() {
-        movieModal.style.display = 'none';
-        document.body.style.overflow = 'auto';
-    }
+    // function closeModalFunc() {
+    //     movieModal.style.display = 'none';
+    //     document.body.style.overflow = 'auto';
+    // }
     
-    movieTiles.forEach(tile => {
-        tile.addEventListener('click', openModal);
-    });
+    // movieTiles.forEach(tile => {
+    //     tile.addEventListener('click', openModal);
+    // });
     
-    moreInfoBtn.addEventListener('click', openModal);
+    // moreInfoBtn.addEventListener('click', openModal);
     
-    closeModal.addEventListener('click', closeModalFunc);
+    // closeModal.addEventListener('click', closeModalFunc);
     
-    window.addEventListener('click', function(event) {
-        if (event.target == movieModal) {
-            closeModalFunc();
-        }
-    });
+    // window.addEventListener('click', function(event) {
+    //     if (event.target == movieModal) {
+    //         closeModalFunc();
+    //     }
+    // });
 
     // Prevent movie tile clicks from triggering when clicking buttons inside overlay
     const tileButtons = document.querySelectorAll('.tile-buttons button');

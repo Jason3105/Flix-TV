@@ -37,5 +37,7 @@ FlixTV is a Netflix-inspired streaming platform that allows users to browse, sea
 
 ## Screenshots 📸
 ![Home_Page](Images/img1.png)  
+
 ![Movies_Section](Images/img2.png)  
+
 ![Responsive_Mobile_Screen](Images/img3.png)  

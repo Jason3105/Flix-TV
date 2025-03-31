@@ -2,7 +2,7 @@
 FlixTV is a Netflix-inspired streaming platform that allows users to browse, search, and experience a stunning UI theme similar to Netflix. Designed with pure HTML, CSS, and JavaScript, it offers a sleek, responsive, and immersive user interface that adapts seamlessly to all screen sizes.  
 
 ## Live Demo 🚀
-[Click here to try FlixTV](jason3105.github.io/Flix-TV/)
+[Click here to try FlixTV](https://jason3105.github.io/Flix-TV/)
 
 ## Features ✨
 🎭 Netflix-like UI with a modern and polished design  
@@ -36,6 +36,6 @@ FlixTV is a Netflix-inspired streaming platform that allows users to browse, sea
 </pre>
 
 ## Screenshots 📸
-![Home_Page](Images/img1.jpg)  
-![Movies_Section](Images/img2.jpg)  
-![Responsive_Mobile_Screen](Images/img3.jpg)  
+![Home_Page](Images/img1.png)  
+![Movies_Section](Images/img2.png)  
+![Responsive_Mobile_Screen](Images/img3.png)  
